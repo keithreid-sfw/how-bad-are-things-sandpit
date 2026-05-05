@@ -1,4 +1,6 @@
-# Script to inflict maladies on unsuspecting imaginary people
+# monte carlo
+# given incidences
+# and one set of exclusive conditions
 
 # https://stackoverflow.com/questions/5060660/how-can-i-shuffle-an-array-hash-in-ruby
 # sure, why not redefine a built-in class
