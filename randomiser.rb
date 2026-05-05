@@ -24,7 +24,7 @@ ALL_MALADIES = {
                                          0.03, TRUE],
   food_stamps:     ["is on food stamps", 0.20, TRUE],
   nursing_home: ["is in a nursing home", 0.01, TRUE],
-  on_probation:     ["is on probation", 0.02,
+  on_probation:     ["is on probation", 0.02,  TRUE],
   prison:               ["is in prison", 0.01, TRUE],
   unemployed:          ["is unemployed", 0.05, TRUE],
   
