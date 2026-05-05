@@ -3,7 +3,7 @@
 # and one set of exclusive conditions
 
 # https://stackoverflow.com/questions/5060660/how-can-i-shuffle-an-array-hash-in-ruby
-# sure, why not redefine a built-in class
+# redefines a built-in class
 class Hash
   def shuffle
     Hash[self.to_a.sample(self.length)]
@@ -26,18 +26,18 @@ ALL_MALADIES = {
   disability_living_allowance: ["is on disability living allowance", 0.03, TRUE],
   on_probation: ["is on probation", 0.02, TRUE],
   nursing_home: ["is in a nursing home", 0.01, TRUE],
-  current_domestic_abuse: ["experienced domestic abuse this year", 0.01, FALSE],
+  current_domestic_abuse: ["experienced intimate partner violence this year", 0.01, FALSE],
   child_sex_abuse: ["was sexually abused as a child", 0.1, FALSE],
   child_physical_abuse: ["was physically abused as a child", 0.2, FALSE],
   raped: ["has been raped", 0.09, FALSE],
   chronic_pain: ["has chronic pain", 0.2, FALSE],
   depressed: ["is clinically depressed", 0.07, FALSE],
   cognitively_disabled: ["is cognitively disabled", 0.02, FALSE],
-  schizophenia: ["has schizophrenia", 0.01, FALSE],
-  dementia: ["has dementia", 0.02, FALSE],
-  wheelchair_bound: ["is wheelchair-bound", 0.01, FALSE],
-  alcoholic: ["is an alcoholic", 0.07, FALSE],
-  heroin_addict: ["is a heroin addict", 0.005, FALSE]
+  schizophenia: ["is a person with schizophrenia", 0.01, FALSE],
+  dementia: ["is a person with dementia", 0.02, FALSE],
+  wheelchair_bound: ["is a wheelchair user", 0.01, FALSE],
+  alcoholic: ["is a person with alcohol dependence", 0.07, FALSE],
+  heroin_addict: ["is a person with heroin dependence", 0.005, FALSE]
 }
 
 # US Census top 30
