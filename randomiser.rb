@@ -28,19 +28,19 @@ ALL_MALADIES = {
   prison:               ["is in prison", 0.01, TRUE],
   unemployed:          ["is unemployed", 0.05, TRUE],
   
+  alcoholic:             ["is a person with alcohol dependence", 0.07, FALSE],
+  child_physical_abuse:   ["was physically abused as a child", 0.2, FALSE],
+  child_sex_abuse:        ["was sexually abused as a child", 0.1, FALSE],
+  chronic_pain:           ["has chronic pain", 0.2, FALSE],
   current_domestic_abuse: ["experienced intimate partner violence this year", 0.01, FALSE],
-  child_sex_abuse: ["was sexually abused as a child", 0.1, FALSE],
-  child_physical_abuse: ["was physically abused as a child", 0.2, FALSE],
-  raped: ["has been raped", 0.09, FALSE],
-  chronic_pain: ["has chronic pain", 0.2, FALSE],
-  depressed: ["is clinically depressed", 0.07, FALSE],
-  cognitively_disabled: ["is cognitively disabled", 0.02, FALSE],
-  schizophenia: ["is a person with schizophrenia", 0.01, FALSE],
-  dementia: ["is a person with dementia", 0.02, FALSE],
-  wheelchair_bound: ["is a wheelchair user", 0.01, FALSE],
-  alcoholic: ["is a person with alcohol dependence", 0.07, FALSE],
-  heroin_addict: ["is a person with heroin dependence", 0.005, FALSE]
-}
+  dementia:               ["is a person with dementia", 0.02, FALSE],
+  depressed:              ["is clinically depressed", 0.07, FALSE],
+  cognitively_disabled:   ["is cognitively disabled", 0.02, FALSE],
+  heroin_addict:          ["is a person with heroin dependence", 0.005, FALSE],
+  raped:                  ["has been raped", 0.09, FALSE],
+  schizophenia:           ["is a person with schizophrenia", 0.01, FALSE],
+  wheelchair_bound:       ["is a wheelchair user", 0.01, FALSE]
+  }
 
 # US Census top 30
 NAMES = %w(James John Robert Michael Mary
