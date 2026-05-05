@@ -20,12 +20,14 @@ end
 
 ALL_MALADIES = {
   # name: [description, odds, exclusive]
-  prison: ["is in prison", 0.01, TRUE],
-  food_stamps: ["is on food stamps", 0.20, TRUE],
-  unemployed: ["is unemployed", 0.05, TRUE],
-  disability_living_allowance: ["is on disability living allowance", 0.03, TRUE],
-  on_probation: ["is on probation", 0.02, TRUE],
+  disability_living_allowance: ["is on disability living allowance", 
+                                         0.03, TRUE],
+  food_stamps:     ["is on food stamps", 0.20, TRUE],
   nursing_home: ["is in a nursing home", 0.01, TRUE],
+  on_probation:     ["is on probation", 0.02,
+  prison:               ["is in prison", 0.01, TRUE],
+  unemployed:          ["is unemployed", 0.05, TRUE],
+  
   current_domestic_abuse: ["experienced intimate partner violence this year", 0.01, FALSE],
   child_sex_abuse: ["was sexually abused as a child", 0.1, FALSE],
   child_physical_abuse: ["was physically abused as a child", 0.2, FALSE],
@@ -86,7 +88,7 @@ def report(person)
   end
 end
 
-# Let's roll the dice for our lucky few
+# Let's roll the dice
 NAMES.each do |name| 
   x = Person.new(name)
   report x
