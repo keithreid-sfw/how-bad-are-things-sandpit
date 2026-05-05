@@ -1,6 +1,6 @@
 # this is a fork #
 
-The original root repo contains jdkram's intent which was demonatrative and educational. 
+The original root repo contains jdkram's intent which was demonstrative and educational. 
 
 Warning: some of the terms in this repo refer to traumatic life events.
 
